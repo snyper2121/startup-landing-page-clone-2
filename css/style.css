@@ -128,3 +128,42 @@ button:hover {
     text-align: center;
     margin-top: 1.563rem
 }
+
+.cases .content {
+    margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
+}
+
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+}
+
+.cases .devices {
+    width: 19.40%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    height: 97px;
+    padding-bottom: 5rem;
+    
+}
+
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+    color: #1d1e21;
+    box-sizing: border-box
+}
+
+.imglogo {
+    display: block;
+    margin: auto;
+}
+
+.cases {
+    text-align: center;
+}
