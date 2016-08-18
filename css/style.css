@@ -1,10 +1,10 @@
 html {
-  box-sizing: border-box; 
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 *, *:before, *:after {
   box-sizing: inherit;
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   letter-spacing: 0.03em;
   /*color: #838994;*/
@@ -103,13 +103,18 @@ h1, h3 {
 }
 
 h1 {
-    margin-top: 12.5rem;
+    margin-top: 270px;
     font-size: 3.125rem;
 }
 
 h3 {
     margin-top: 1.0rem;
     font-size: 1.563rem;
+}
+
+h5 {
+    display: block;
+    font-weight: 400;
 }
 
 button {
@@ -172,4 +177,34 @@ button:hover {
 
 .cases {
     text-align: center;
+    padding-bottom: 80px;
 }
+
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+
+.social > .content {
+    width: 1101.374px;
+    margin: 0 auto;
+}
+
+.social .content .icons li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.social hr {
+    border: 0;
+    border-top: 1px solid #eaebec;
+    margin: 1.313rem 15px;
+    width: 1070.390px
+}
+
+.fa-twitter {
+    font-family: 'FontAwesome';
+}
+
