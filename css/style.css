@@ -11,11 +11,11 @@ html {
 }
 
 body {
-    /*background-color: LightGray;*/
+    /* background-color: LightGray; */
     -webkit-font-smoothing: antialiased;
 }
 div {
-    border: 1px solid Chocolate;
+    /* border: 1px solid Chocolate; */
 }
 
 /* Navigation Section */
