@@ -77,6 +77,10 @@ a:active {
     font-weight: 500;
 }
 
+.top-navigation .links .active a:active {
+    color: #4c5058;
+    font-weight: 500;
+}
 
 .introduction {
     background-image: url('../images/first-background.jpg') ;
@@ -156,7 +160,7 @@ button:hover {
     width: 19.40%;
     display: inline-block;
     /* styles to assist with debugging */
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     height: 97px;
     padding-bottom: 5rem;
     
